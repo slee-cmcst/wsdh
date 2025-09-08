@@ -6,7 +6,7 @@ database_root_dir <- file.path(
         "Users",
         Sys.getenv("USERNAME"),
         "OneDrive - Comcast",
-        "Central Division People Analytics - Database",
+        "Central Division People Analytics - Database"
     )
 
 if (!dir.exists(database_root_dir)) {
@@ -18,7 +18,7 @@ if (!dir.exists(database_root_dir)) {
             "@cable.comcast.com"
         ),
         "OneDrive - Comcast",
-        "Central Division People Analytics - Database",
+        "Central Division People Analytics - Database"
     )
     if (!dir.exists(database_root_dir)) {
         cat("Cannot find the Database directory on your machine.")
