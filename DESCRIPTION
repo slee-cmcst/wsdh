@@ -1,0 +1,18 @@
+Package: wsdh
+Type: Package
+Title: Workforce Strategy Data Hub (wsdh) 
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Stephen", "Lee",
+      email = "stephen_lee@comcast.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Workforce Strategy Data Hub (wsdh) provides consistent access 
+    to clean datasets for the Comcast Central Division Workforce Strategy Team 
+License: This software is proprietary and intended for internal use only by 
+    Comcast and the Central Division Workforce Strategy Team. Redistribution 
+    or external use is prohibited. 
+Encoding: UTF-8
+LazyData: true
