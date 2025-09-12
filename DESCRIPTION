@@ -1,7 +1,7 @@
 Package: wsdh
 Type: Package
 Title: Workforce Strategy Data Hub (wsdh) 
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person(
       "Stephen", "Lee",

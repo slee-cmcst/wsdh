@@ -4,3 +4,10 @@ show_tables <- function() {
         cat("  -", name, "\n")
     }
 }
+
+show_shapefiles <- function() {
+    cat("The available shapefiles you can load are:\n")
+    for (name in names(shapefile_list)) {
+        cat("  -", name, "\n")
+    }
+}
