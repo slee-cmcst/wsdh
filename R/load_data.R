@@ -1,7 +1,7 @@
 load_table <- function(table_name) {
     fname <- datasets_list[table_name][[1]]
     fpath <- file.path(database_dir, fname)
-    return(readr::read_csv(fpath))
+    return(suppressWarnings(readr::read_csv(fpath)))
 }
 
 load_shapefile <- function(shapefile_name) {

@@ -7,7 +7,11 @@ datasets_list <- list(
     "competitive_intelligence" = file.path("Business", "competitive_intelligence.csv"),
     "retail_store_performance" = file.path("Business", "Retail", "retail_store_performance.csv"),
     "zip_cbsa_xwalk" = file.path("Geography", "Crosswalks", "zip_cbsa_xwalk.csv"),
-    "zip_dma_xwalk" = file.path("Geography", "Crosswalks", "zip_dma_xwalk.csv")
+    "zip_dma_xwalk" = file.path("Geography", "Crosswalks", "zip_dma_xwalk.csv"),
+    "bls_household_unemployment" = file.path("External", "bls_la.csv"),
+    "bls_industry_employment" = file.path("External", "bls_sm.csv"),
+    "acs_cbsa" = file.path("External", "acs_msa.csv"),
+    "acs_zipcode" = file.path("External", "acs_zip.csv")
 )
 
 shapefile_list <- list(
